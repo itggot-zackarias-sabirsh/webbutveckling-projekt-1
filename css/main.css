@@ -2,14 +2,18 @@ body{
     width: 100vw;
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
-    background-color: blue;
 }
 
 .wrapper{
     width: 100%;
-    background-color:white;
     display:grid;
     grid-template-rows: 100px;
+}
+
+#bg img{
+    display: block;
+    width: 100vw;
+    height: 100vh;
 }
 
 .jacques-sketch{
@@ -19,6 +23,7 @@ body{
 }
 
 header{
+    opacity: 0.9;
     font-size: 30px;
     background-color: rgb(166, 233, 255);
     color: white;
@@ -43,18 +48,9 @@ main{
 
 }
 
-#button-about{    
-    width: 100px;
-    height: 50px;
-}
-
-#button-merch{
-    width: 100px;
-    height: 50px;
-
-}
-
 .button{
+    width: 100px;
+    height: 50px;
     transition: box-shadow .3s;
     transition: background-color .3s;
     display: flex;
@@ -75,3 +71,21 @@ main{
     text-decoration: none;
 }
 
+.tröja{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    transition: box-shadow 0.3s;
+}
+
+.tröja:hover{
+    box-shadow: 0 0 11px rgba(56, 56, 56, 0.2);
+    border-radius: 15px;
+}
+
+aside{
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
