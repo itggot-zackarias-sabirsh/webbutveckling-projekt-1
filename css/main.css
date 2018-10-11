@@ -70,16 +70,28 @@ main{
 }
 
 .button{
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 45px;
     transition: box-shadow .3s;
     transition: background-color .3s;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(166, 233, 255);
-    border-radius: 15px;
-    
+    border-radius: 15px; 
+}
+
+.button-current{
+    width: 150px;
+    height: 45px;
+    transition: box-shadow .3s;
+    transition: background-color .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(83, 212, 255); 
+    box-shadow: 0 0 11px rgba(158, 158, 158, 0.2);
+    border-radius: 15px; 
 }
 
 .button:hover{
@@ -90,6 +102,21 @@ main{
 .linktext{
     color: white;
     text-decoration: none;
+}
+
+.linktext-current{
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 11px rgba(158, 158, 158, 0.2);
+    background-color: rgb(83, 212, 255); 
+}
+
+h3{
+    margin: 0px;
+}
+
+h1{
+    margin: 0px;
 }
 
 #main-about{
@@ -127,6 +154,7 @@ aside{
 
 .about-left{
     width: 200px;
+    
 }
 
 .text-box{
@@ -139,14 +167,16 @@ aside{
     width: 200px;
 }
 .grid-box{
+    background-image: url(../img/bakgrund-about-edited.jpg);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
     height: 100%;
     display: grid;
     grid-template-rows: 1fr 3fr 3fr;
     grid-template-columns: 1fr 1fr;
 }
-.box1{
 
-}
 .box2{
  margin: 5px;
 
