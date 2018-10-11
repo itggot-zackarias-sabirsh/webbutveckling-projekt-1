@@ -1,4 +1,5 @@
 body{
+    overflow-x: hidden;
     width: 100vw;
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
@@ -11,6 +12,10 @@ body{
     background-color: rgb(166, 233, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
     opacity: 0,9;
+}
+
+.body-white{
+    color: aliceblue;
 }
 
 .wrapper{
@@ -104,6 +109,10 @@ main{
     text-decoration: none;
 }
 
+.linktext-about{
+    color: white;
+}
+
 .linktext-current{
     color: white;
     text-decoration: none;
@@ -128,23 +137,22 @@ h1{
 
 
 .tröja{
-    width: 230px;
-    height: 230px;
-    margin: 10px;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
     transition: box-shadow 0.3s;
+    border-radius: 5px;
 }
 
 .tröja:hover{
     box-shadow: 0 0 11px #38383833;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 aside{
-    width: 40vw;
     display: flex;
     flex-wrap: wrap;
     margin: 5px;
-    border-right: 1px solid;
     border-color: lightgray;
 }
 
@@ -167,23 +175,18 @@ aside{
     width: 200px;
 }
 .grid-box{
-    background-image: url(../img/bakgrund-about-edited.jpg);
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
+    height: 100vh;
+    overflow-y: hidden;
+    background-image: url(../img/bakgrund-about-v2.jpg);
     background-size: cover;
-    height: 100%;
-    display: grid;
-    grid-template-rows: 1fr 3fr 3fr;
-    grid-template-columns: 1fr 1fr;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.box2{
- margin: 5px;
 
-}
-.box3{
-    grid-column: span 2;
-}
-.box4{
-    grid-column: span 2;
+
+.box1, .box2, .box3, .box4{
+    margin: 10px;
 }
