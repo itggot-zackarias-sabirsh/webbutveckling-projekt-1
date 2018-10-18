@@ -135,6 +135,17 @@ h1{
     grid-row-gap: 5px;
 }
 
+.box-merch{
+    height: 350px;
+}
+
+.pris{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(96, 223, 255);
+}
+
 
 .tröja{
     width: 300px;
