@@ -137,6 +137,7 @@ h1{
 
 .box-merch{
     height: 350px;
+    text-decoration: none;
 }
 
 .pris{
@@ -200,4 +201,43 @@ aside{
 
 .box1, .box2, .box3, .box4{
     margin: 10px;
+}
+
+#purchase-wrapper{
+display: flex;
+flex-wrap: wrap;
+height: 80vh;
+width: 100vw;
+margin: 5px;
+}
+
+.notscam{
+   /* background-color: lightgrey;*/
+    background-image: url(../img/bakgrund-about-v2.jpg);
+    background-size: cover;
+    background-position: left;
+    height: 100%;
+    width: 49vw;
+    border-radius: 20px;
+    border: 0.25vw lightpink solid;
+    margin: 0.125vw;
+}
+.billing_adress{
+    height: 100%;
+    width: 49vw;
+   /* background-color: lightgrey;*/
+   background-image: url(../img/jacques-fin.jpg);
+   background-size: cover;
+   background-position: right;
+    border-radius: 20px;
+    border: 0.25vw lightpink solid;
+    margin: 0.125vw;
+}
+
+.buy-text{
+    font-family: 
+    color: white; 
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
 }
